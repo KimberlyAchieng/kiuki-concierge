@@ -1,0 +1,66 @@
+/* Kiuki Concierge Luxury Theme */
+
+:root {
+  --emerald: #0f3d2e;
+  --emerald-light: #145c45;
+  --gold: #c6a75e;
+  --ivory: #f8f7f4;
+  --charcoal: #1a1a1a;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--ivory);
+  color: var(--charcoal);
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.luxury-heading {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.5px;
+}
+
+.gold-accent {
+  color: var(--gold);
+}
+
+.btn-primary {
+  background: var(--emerald);
+  color: white;
+  padding: 12px 26px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background: var(--emerald-light);
+  transform: translateY(-2px);
+}
+
+.section {
+  padding: 100px 20px;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+label {
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
