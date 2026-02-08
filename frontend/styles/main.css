@@ -241,3 +241,26 @@ select:focus {
     font-size: 2.2rem;
   }
 }
+
+/* ==========================================================
+   About Page – Luxury Content Styling
+   ========================================================== */
+
+.about-section p {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #3a3a3a;
+  letter-spacing: 0.01em;
+}
+
+.about-section p + p {
+  margin-top: 1.5rem;
+}
+
+.about-section .gold-accent {
+  font-weight: 500;
+}
+
+.about-section .btn-primary {
+  margin-top: 1.5rem;
+}

@@ -11,43 +11,102 @@
 </head>
 <body>
 
-<nav class="fixed w-full bg-white shadow-sm z-50">
+<!-- Navigation -->
+<nav class="fixed w-full bg-white/90 backdrop-blur-md z-50 border-b">
   <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
     <h1 class="luxury-heading text-2xl">Kiuki Concierge</h1>
     <div class="space-x-6 text-sm tracking-wide">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="booking.html" class="gold-accent">Book</a>
+      <a href="services.html" class="gold-accent">Services</a>
       <a href="contact.html">Contact</a>
     </div>
   </div>
 </nav>
 
+<!-- Membership Overview -->
 <section class="section pt-32 max-w-7xl mx-auto text-center">
-  <h2 class="luxury-heading text-4xl mb-6">Membership Tiers</h2>
-  <p class="mb-16 text-lg">Bespoke lifestyle management designed around your level of need.</p>
+  <h2 class="luxury-heading text-4xl mb-6">
+    Membership Tiers
+  </h2>
 
-  <div class="grid md:grid-cols-3 gap-10">
+  <p class="mb-20 text-lg max-w-3xl mx-auto">
+    A discreet range of service levels designed to match the complexity of your life.
+  </p>
 
-    <div class="card">
-      <h3 class="luxury-heading text-2xl mb-4">The Essentialist</h3>
-      <p class="mb-4">Reliable execution of recurring tasks with 24-hour turnaround.</p>
-      <p class="gold-accent font-semibold">Ksh 35,000 / month</p>
-    </div>
+  <!-- Comparison Grid -->
+  <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-10">
 
-    <div class="card border-2 border-yellow-600 scale-105">
-      <h3 class="luxury-heading text-2xl mb-4 gold-accent">The Prestige</h3>
-      <p class="mb-4">Seamless home and lifestyle oversight with same-day service priority.</p>
-      <p class="gold-accent font-semibold">Ksh 85,000 / month</p>
-    </div>
+    <!-- Tier 1 -->
+    <a href="tier1.html"
+       class="card text-left transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl cursor-pointer">
+      <h3 class="luxury-heading text-xl mb-3">
+        The Essentialist
+      </h3>
+      <p class="mb-4 text-sm leading-relaxed">
+        Reliable execution of recurring household and personal tasks with guaranteed turnaround.
+      </p>
+      <p class="gold-accent font-medium">
+        Ksh 35,000 / month
+      </p>
+    </a>
 
-    <div class="card">
-      <h3 class="luxury-heading text-2xl mb-4">The Exquisite</h3>
-      <p class="mb-4">Full lifestyle management and administrative proxy for complex lives.</p>
-      <p class="gold-accent font-semibold">Ksh 150,000 / month</p>
-    </div>
+    <!-- Tier 2 -->
+    <a href="tier2.html"
+       class="card text-left border border-yellow-500/40 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl cursor-pointer">
+      <h3 class="luxury-heading text-xl mb-3 gold-accent">
+        The Prestige
+      </h3>
+      <p class="mb-4 text-sm leading-relaxed">
+        Comprehensive home and property oversight with same-day priority service.
+      </p>
+      <p class="gold-accent font-medium">
+        Ksh 85,000 / month
+      </p>
+    </a>
+
+    <!-- Tier 3 -->
+    <a href="tier3.html"
+       class="card text-left transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl cursor-pointer">
+      <h3 class="luxury-heading text-xl mb-3">
+        The Exquisite
+      </h3>
+      <p class="mb-4 text-sm leading-relaxed">
+        Total lifestyle immersion with a dedicated professional partner.
+      </p>
+      <p class="gold-accent font-medium">
+        Ksh 150,000 / month
+      </p>
+    </a>
+
+    <!-- Out of Town -->
+    <a href="outOfTown.html"
+       class="card text-left transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl cursor-pointer">
+      <h3 class="luxury-heading text-xl mb-3">
+        Out-of-Town Services
+      </h3>
+      <p class="mb-4 text-sm leading-relaxed">
+        Professional representation and errand execution beyond your immediate location.
+      </p>
+      <p class="gold-accent font-medium">
+        Task-Based or Tier-Included
+      </p>
+    </a>
 
   </div>
+</section>
+
+<!-- Exclusivity Signal -->
+<section class="section max-w-3xl mx-auto text-center">
+  <p class="text-base leading-relaxed mb-8">
+    We are currently accepting two new memberships for the upcoming quarter.
+    If the luxury of a perfectly managed life is of interest, we invite you to a
+    private consultation.
+  </p>
+
+  <a href="queries.html" class="btn-primary">
+    Request a Private Consultation
+  </a>
 </section>
 
 <script src="js/animations.js"></script>
